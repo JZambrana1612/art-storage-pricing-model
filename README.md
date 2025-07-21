@@ -24,7 +24,7 @@ This dashboard answers four strategic pricing and planning questions for a bouti
   - Monthly price comparison by tier and sensitivity
   - Total revenue potential by storage tier (climate vs. stable)
 
-> 🔗 [View the live dashboard on Tableau Public](#) <!-- Add your Tableau link here -->
+> 🔗 [View the live dashboard on Tableau Public](https://public.tableau.com/views/ArtStoragePricingModelDashboard/ArtStoragePricingModel?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link#)
 
 ---
 
