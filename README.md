@@ -16,6 +16,13 @@ This dashboard answers four strategic pricing and planning questions for a bouti
 3. **What is the average monthly storage price per tier?**
 4. **Which storage tiers generate the most total revenue under the current pricing model?**
 
+---
+### 🖼 Dashboard Preview
+
+![Art Storage Dashboard Preview](images/dashboard_preview.png)
+
+---
+
 ### 📊 Dashboard Overview
 
 - Visual insights include:
