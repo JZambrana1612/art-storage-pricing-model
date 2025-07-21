@@ -59,6 +59,36 @@ This dashboard answers four strategic pricing and planning questions for a bouti
 
 ---
 
+# 📚 Data Sources
+
+> The following public datasets were used for analysis, cleaning, and modeling in this project:
+
+---
+
+## 🏛 Smithsonian American Art Museum (SAAM)
+- 📦 **Repo:** [https://github.com/american-art/saam](https://github.com/american-art/saam)
+- 📘 **Description:** SAAM’s structured object metadata, dimensions, and attribution data were used to calculate storage tiers and preservation needs.
+
+---
+
+## 🖼 National Portrait Gallery (NPG)
+- 📦 **Repo:** [https://github.com/american-art/npg](https://github.com/american-art/npg)
+- 📘 **Description:** Similar to SAAM, NPG’s dataset contributed additional inventory to improve pricing model validation and generalizability.
+
+---
+
+## 🧵 Art Materials Dataset
+- 🌐 **Kaggle:** [https://www.kaggle.com/datasets/akshaydattatraykhare/artsuppliesprice-dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/artsuppliesprice-dataset)
+- 📘 **Description:** Pricing and description metadata for various art materials, used to engineer `material_type` and infer storage `sensitivity_flag`. Keywords from product names and descriptions were mapped to "Stable" or "Climate-Sensitive" conditions.
+
+---
+
+## 🛒 Large Art E-Commerce Dataset
+- 🌐 **Kaggle:** [https://www.kaggle.com/datasets/ekrembayar/large-art-ecommerce-dataset](https://www.kaggle.com/datasets/ekrembayar/large-art-ecommerce-dataset)
+- 📘 **Description:** Used as a pricing benchmark to validate storage cost assumptions in real-world art retail environments.
+
+---
+
 ### 💾 SQL-Based Analysis
 
 - Custom table created using merged Excel outputs
