@@ -102,21 +102,24 @@ art-storage-pricing-model/
 │   ├── 04_q3_avg_price_by_tier.sql
 │   └── 05_q4_total_revenue_by_tier.sql
 │
-data/
-├── cleaned/                             # Cleaned datasets used for analysis
-│   ├── SAAM_Full_Data.xlsx
-│   ├── NPG_Pricing_Model.xlsx
-│   ├── Art_Market_Insights.xlsx
-│   └── Museum_Pricing_Combined.xlsx     # Combined SAAM + NPG data
-│
-├── raw/                                 # Original datasets before cleaning
-│   ├── WebObjCaption.csv
-│   ├── WebObjPeople.csv
-│   ├── WebObjDimensions_view.csv
-│   ├── NPGObjects3.csv
-│   ├── Dimensions.csv
-│   ├── artDataset.csv
-│   └── large_art_ecommerce_dataset.csv
+├── data/
+│   ├── cleaned/
+│   │   ├── Art_Market_Insight.xlsx
+│   │   ├── MaterialSensitivityLookup.xlsx
+│   │   ├── Museum_Pricing_Combined.xlsx
+│   │   ├── NP_Pricing_Model.xlsx
+│   │   ├── SAAM_Full_Data.md                    #Contains link to full dataset
+│   │   └── large_ecommerce_dataset.xlsx
+│   │
+│   ├── raw/
+│   │   ├── Art_Materials.csv
+│   │   ├── NPGObjDimParsed3.csv
+│   │   ├── NPGObjects3.csv
+│   │   ├── WebObjCaption.csv
+│   │   ├── WebObjDimensionSplit_view.csv
+│   │   ├── artDataset.csv
+│   │   └──large_art_ecommerce_dataset.csv
+│   
 │
 ├── images/
 │   └── dashboard_preview.png              
